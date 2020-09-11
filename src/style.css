@@ -1,0 +1,60 @@
+.divComponentContainer{
+    margin: 5px;
+    padding: 5px;
+}
+.divComponent{
+    display: inline-flex;
+    margin: 5px;
+    padding: 5px;
+}
+.divHeaderComponent {
+    border: 1px solid gray;
+    background-color: lightgray;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0 0 5px 0;
+}
+.divBodyComponent {
+    border: 1px solid lightgray;
+    background-color: #f8f9fa;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.divFooterComponent {
+    border: 1px solid lightgray;
+    background-color: #f8f9fa;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px 0 0 0;
+    padding: 0 0 5px 0;
+}
+
+#basic-addon1 {
+    height: 35px;
+    width: 82px;
+    font-size: x-large;
+    background-color: lightgray;
+    text-justify: auto;
+}
+
+#lessbutton{
+    width: 37px;
+    height: 35px;
+}
+
+#addbutton{
+    width: 37px;
+    height: 35px;
+}
+
+#addtocart{
+    height: 35px;
+    width: 153px;
+}
